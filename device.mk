@@ -14,26 +14,11 @@
 # limitations under the License.
 
 # Inherit from msm8917-common
-$(call inherit-product, device/samsung/msm8917-common/msm8917.mk)
-
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/camera/sdm450_camera_j6primelte.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm450_camera_j6primelte.xml
-
-# Fingerprint
-#PRODUCT_PACKAGES += \
-#    fingerprint.msm8937
-
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.samsung
-	
-# Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+$(call inherit-product, device/asus/msm8917-common/msm8917.mk)
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    device/samsung/j6primelte
+    device/asus/X00HD
 
 # Inherit vendor
-$(call inherit-product, vendor/samsung/j6primelte/j6primelte-vendor.mk)
+$(call inherit-product, vendor/asus/X00HD/X00HD-vendor.mk)

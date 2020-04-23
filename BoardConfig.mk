@@ -13,17 +13,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/samsung/j6primelte
+DEVICE_PATH := device/asus/X00HD
 
 # Kernel
-TARGET_KERNEL_CONFIG := j6primelte_defconfig
+TARGET_KERNEL_CONFIG := X00HD_defconfig
 
 # Filesystem
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2453520000
-BOARD_VENDORIMAGE_PARTITION_SIZE := 295698432
+#BOARD_VENDORIMAGE_PARTITION_SIZE := 295698432
 
 # Inherit from common msm8917-common
--include device/samsung/msm8917-common/BoardConfigCommon.mk
+-include device/asus/msm8917-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/j6primelte/BoardConfigVendor.mk
+-include vendor/asus/X00HD/BoardConfigVendor.mk

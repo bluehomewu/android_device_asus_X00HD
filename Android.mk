@@ -13,6 +13,6 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
-ifeq ($(TARGET_DEVICE),j6primelte)
+ifeq ($(TARGET_DEVICE),X00HD)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

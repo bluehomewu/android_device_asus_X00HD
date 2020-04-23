@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=j6primelte
-VENDOR=samsung
+DEVICE=X00HD
+VENDOR=asus
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
