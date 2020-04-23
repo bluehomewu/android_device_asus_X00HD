@@ -16,7 +16,7 @@
 DEVICE_PATH := device/asus/X00HD
 
 # Kernel
-TARGET_KERNEL_CONFIG := X00HD_defconfig
+TARGET_KERNEL_CONFIG := msm8937-perf_defconfig
 
 # Filesystem
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2453520000
