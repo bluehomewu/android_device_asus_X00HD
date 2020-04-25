@@ -23,7 +23,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2453520000
 #BOARD_VENDORIMAGE_PARTITION_SIZE := 295698432
 
 # Inherit from common msm8917-common
--include device/asus/msm8917-common/BoardConfigCommon.mk
+-include device/asus/msm8937-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/asus/X00HD/BoardConfigVendor.mk
+-include vendor/asus/X00HD/BoardConfigVendor.mk

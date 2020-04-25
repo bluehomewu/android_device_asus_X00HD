@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit from msm8917-common
-$(call inherit-product, device/asus/msm8917-common/msm8917.mk)
+$(call inherit-product, device/asus/msm8937-common/msm8937.mk)
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
