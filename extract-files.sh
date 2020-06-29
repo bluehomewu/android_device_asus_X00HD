@@ -66,4 +66,6 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" ${KANG} --section "${SECTION}
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
+sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" "$BLOB_ROOT"/vendor/lib64/libgf_ca.so
+
 "${MY_DIR}/setup-makefiles.sh"
